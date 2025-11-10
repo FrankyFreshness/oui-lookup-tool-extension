@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      width: 380px;
+      padding: 0;
+      margin: 0;
+      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #e0e0e0;
+    }
+    .container {
+      padding: 24px;
+    }
+    h2 {
+      margin: 0 0 20px 0;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 600;
+      text-shadow: 0 0 10px rgba(77, 184, 255, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .header-border {
+      height: 3px;
+      background: linear-gradient(90deg, #4db8ff 0%, #0066cc 100%);
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #2d3a52;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+      background-color: #0f1419;
+      color: #e0e0e0;
+      font-family: 'Courier New', monospace;
+      transition: all 0.3s ease;
+    }
+    input:focus {
+      outline: none;
+      border-color: #4db8ff;
+      background-color: #1a1f2e;
+      box-shadow: 0 0 10px rgba(77, 184, 255, 0.2);
+    }
+    input::placeholder {
+      color: #ffffff;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      background: linear-gradient(135deg, #0066cc 0%, #004c99 100%);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    button:hover {
+      background: linear-gradient(135deg, #0080ff 0%, #0066cc 100%);
+      box-shadow: 0 4px 12px rgba(77, 184, 255, 0.4);
+      transform: translateY(-1px);
+    }
+    button:active {
+      transform: translateY(0);
+    }
+    button:disabled {
+      background: #2d3a52;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    #result {
+      margin-top: 16px;
+      padding: 14px;
+      border-radius: 6px;
+      font-size: 14px;
+      border-left: 4px solid;
+      animation: slideIn 0.3s ease;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .success {
+      background-color: rgba(0, 200, 83, 0.15);
+      color: #4dffb8;
+      border-left-color: #00c853;
+    }
+    .error {
+      background-color: rgba(255, 61, 87, 0.15);
+      color: #ff6b8a;
+      border-left-color: #ff3d57;
+    }
+    .loading {
+      background-color: rgba(77, 184, 255, 0.15);
+      color: #4db8ff;
+      border-left-color: #4db8ff;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-border"></div>
+  <div class="container">
+    <h2>OUI Lookup Tool 🔍</h2>
+    <input type="text" id="macInput" placeholder="Enter MAC address (e.g., 00:1A:2B:3C:4D:5E)" />
+    <button id="lookupBtn">Lookup Vendor</button>
+    <div id="result" class="hidden"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
