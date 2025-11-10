@@ -1,6 +1,6 @@
 # OUI Lookup Tool
 
-A simple browser extension for looking up a MAC address vendors using the OUI (Organizationally Unique Identifier) database.
+A quick simple browser extension for looking up a MAC address' vendor using the OUI (Organizationally Unique Identifier) database.
 
 <img width="373" height="246" alt="image" src="https://github.com/user-attachments/assets/cb466e84-8f66-4556-a3de-e83e60b89467" />
 
