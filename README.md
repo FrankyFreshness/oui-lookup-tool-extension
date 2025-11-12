@@ -10,7 +10,6 @@ A quick simple browser extension for looking up a MAC address' vendor using the 
 - 🔍 Quick MAC address vendor lookup
 - ⚡ Fast and lightweight
 - 🔒 No data collection or tracking
-- ✨ Works offline after installation
 
 ## Installation
 
