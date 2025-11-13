@@ -112,12 +112,6 @@ The extension automatically maintains the database, but you can force updates:
 - Click the refresh icon (⟳) in the extension popup
 - Or wait for automatic weekly updates
 
-## Privacy Policy
-
-This extension does **not** collect, store, or transmit any personal information. MAC address lookups are performed via third-party APIs or local database. No tracking, analytics, or user data collection of any kind.
-
-See [PRIVACY.md](PRIVACY.md) for full details.
-
 ## License
 
 MIT License - Feel free to use and modify as needed.
