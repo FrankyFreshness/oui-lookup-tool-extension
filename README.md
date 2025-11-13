@@ -2,7 +2,7 @@
 
 <img width="469" height="265" alt="image" src="https://github.com/user-attachments/assets/bc0d4cc4-d52d-49d5-b76c-81b4014dabec" />
 
-A modern browser extension for looking up MAC address vendors using the OUI (Organizationally Unique Identifier) database. Features automatic updates, dual API fallback, and a sleek Wireshark-inspired dark interface.
+A  browser extension for looking up MAC address vendors using the OUI (Organizationally Unique Identifier) database. Features automatic updates, dual API fallback, and a sleek Wireshark-inspired dark interface.
 
 ## Features
 
