@@ -1,21 +1,15 @@
 # OUI Lookup Tool
 
-A quick simple browser extension for looking up a MAC address' vendor using the OUI (Organizationally Unique Identifier) database.
-
-<img width="383" height="218" alt="image" src="https://github.com/user-attachments/assets/bb6582cb-0a73-4d90-96ba-3f5ab87a327f" />
-
-# OUI Lookup Tool
+<img width="469" height="265" alt="image" src="https://github.com/user-attachments/assets/bc0d4cc4-d52d-49d5-b76c-81b4014dabec" />
 
 A modern browser extension for looking up MAC address vendors using the OUI (Organizationally Unique Identifier) database. Features automatic updates, dual API fallback, and a sleek Wireshark-inspired dark interface.
 
 ## Features
 
 - 🔍 **Quick MAC address vendor lookup** - Enter any MAC address format
-- 🌐 **Dual API system** - Primary and backup APIs for maximum reliability
+- 🌐 **Dual API system** - Primary and backup APIs for redundancy
 - 💾 **Offline support** - Works without internet using local database
 - 🔄 **Auto-updates** - Database automatically updates every 7 days
-- 🎨 **Modern dark UI** - Wireshark-inspired interface with smooth animations
-- ⚡ **Lightning fast** - Instant results with smart caching
 - 🔒 **Privacy-focused** - Zero data collection or tracking
 - 🌍 **Cross-browser** - Works on Firefox, Chrome, and Edge
 
