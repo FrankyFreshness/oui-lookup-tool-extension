@@ -6,12 +6,12 @@ A modern browser extension for looking up MAC address vendors using the OUI (Org
 
 ## Features
 
-- 🔍 **Quick MAC address vendor lookup** - Enter any MAC address format
-- 🌐 **Dual API system** - Primary and backup APIs for redundancy
-- 💾 **Offline support** - Works without internet using local database
-- 🔄 **Auto-updates** - Database automatically updates every 7 days
-- 🔒 **Privacy-focused** - Zero data collection or tracking
-- 🌍 **Cross-browser** - Works on Firefox, Chrome, and Edge
+- **Quick MAC address vendor lookup** - Enter any MAC address format
+- **Dual API system** - Primary and backup APIs for redundancy
+- **Offline support** - Works without internet using local database
+- **Auto-updates** - Database automatically updates every 7 days
+- **Privacy-focused** - Zero data collection or tracking
+- **Cross-browser** - Works on Firefox, Chrome, and Edge
 
 ## Installation
 
