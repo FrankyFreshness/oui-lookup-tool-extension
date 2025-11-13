@@ -2,14 +2,14 @@
 
 A quick simple browser extension for looking up a MAC address' vendor using the OUI (Organizationally Unique Identifier) database.
 
-<img width="373" height="246" alt="image" src="https://github.com/user-attachments/assets/cb466e84-8f66-4556-a3de-e83e60b89467" />
-
+<img width="383" height="218" alt="image" src="https://github.com/user-attachments/assets/bb6582cb-0a73-4d90-96ba-3f5ab87a327f" />
 
 ## Features
 
-- 🔍 Quick MAC address vendor lookup
-- ⚡ Fast and lightweight
-- 🔒 No data collection or tracking
+- Quick MAC address vendor lookup
+- Fast and lightweight
+- Works offline (with refresh button to update the OUI Database when online for offline use)
+- No data collection or tracking
 
 ## Installation
 
