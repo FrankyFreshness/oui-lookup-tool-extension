@@ -15,7 +15,13 @@ A  browser extension for looking up MAC address vendors using the OUI (Organizat
 - **Privacy-focused** - Zero data collection or tracking
 - **Cross-browser** - Works on Firefox, Chrome, and Edge
 
-## Installation
+## Installation from Browser Extension Stores
+
+[![Firefox Add-ons](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/oui-lookup-tool/)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/oui-lookup-tool/dlfjdembgipbooclgjgpnhjaemncejjj)
+[![Edge Add-ons](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/oui-lookup-tool/mejepkeeddaekgjbmfocoeicboilebkk)
+
+## Manual Installation
 
 ### Firefox
 1. Download or clone this repository
